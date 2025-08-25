@@ -1,5 +1,5 @@
 // Версия кеша — меняйте при обновлении сайта
-const CACHE_VERSION = 'v4.3';
+const CACHE_VERSION = 'v4.4';
 const CACHE_NAME = `nuos-cache-${CACHE_VERSION}`;
 const CACHE_URLS = [
   '/',
