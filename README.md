@@ -48,7 +48,6 @@
 ├── 🎨 style.css           # Стилі та анімації
 ├── ⚡ script.js           # JavaScript для інтерактиву
 ├── 📁 image/              # Зображення та логотипи
-│   ├── Logo.png           # Логотип НУК
 │   ├── voice_nuos.jpeg    # Аватар Voice NUOS
 │   ├── instogram.jpg      # Аватар Instagram
 │   └── logo.png           # Загальний логотип
