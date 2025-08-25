@@ -1,3 +1,14 @@
+.tiktok-center {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tiktok-img-center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+}
 /* Основные стили для проекта НУК Студентські соціальні мережі */
 * {
     margin: 0;
@@ -72,10 +83,18 @@ body {
 }
 .social-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-bottom: 30px;
+    justify-items: center;
+    align-items: center;
 }
+
+/* Стили для центральной карточки TikTok */
+.social-card.tiktok-center {
+    grid-column: 2;
+}
+
 .social-card {
     background: white;
     border-radius: 20px;
@@ -87,6 +106,9 @@ body {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .social-card::before {
     content: '';
