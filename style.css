@@ -92,7 +92,7 @@ body {
 
 /* Стили для центральной карточки TikTok */
 .social-card.tiktok-center {
-    grid-column: 2;
+    /* убрано выделение центральной карточки */
 }
 
 .social-card {
