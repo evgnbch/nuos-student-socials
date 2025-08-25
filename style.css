@@ -90,10 +90,7 @@ body {
     align-items: center;
 }
 
-/* Стили для центральной карточки TikTok */
-.social-card.tiktok-center {
-    /* убрано выделение центральной карточки */
-}
+/* Удалено правило для TikTok, все карточки одного размера */
 
 .social-card {
     background: white;
